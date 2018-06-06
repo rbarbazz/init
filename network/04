@@ -1,0 +1,1 @@
+netstat -rn | grep default | sed 's/default            //' | head -n 1 | cut -c-13

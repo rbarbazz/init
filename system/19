@@ -1,0 +1,1 @@
+iptables -P OUTPUT DROP && iptables -P FORWARD DROP
